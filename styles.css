@@ -1,28 +1,35 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .container-fluid {background: red}
-  }
+.image1{
+    background-image:url("images/home.jpg");
+    /* position: relative; */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    .container-fluid {background: green;}
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .container-fluid {background: blue;}
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .container-fluid {background: orange;}
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .container-fluid {background: pink;}
-  }
+    /* Needed to position the navbar */
+   position: relative;
+
+   /* position the txt*/
+   text-align-last: left;
 
 
+  }
 
-  
+  /* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    /* margin: 20px; */
+    width: cover;
+    background-color: none;
+  }
+
+.row{
+    position: absolute;
+}  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }  
+
