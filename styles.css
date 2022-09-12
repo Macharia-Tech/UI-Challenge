@@ -11,7 +11,7 @@
    position: relative;
 
    /* position the txt*/
-   text-align-last: left;
+   /* text-align-last: left; */
 
 
   }
@@ -25,7 +25,7 @@
   }
 
 .row{
-    position: absolute;
+    align-items: center;
 }  
 .sticky {
     position: fixed;
