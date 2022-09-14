@@ -23,13 +23,9 @@
     width: cover;
     background-color: none;
   }
-
-.row{
-    align-items: center;
+.image2{
+    float: left;
+    max-width: 100%;
+    height: auto;
 }  
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }  
 
